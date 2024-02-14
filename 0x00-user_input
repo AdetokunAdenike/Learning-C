@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 /*
-* 
+* int main - entry point.
+* @printf - Promts the user to enter their initial, height and age.
+* @scanf - Reads user input for initial, height, and age, 
+* 	stores them in memory addresses for display.
+* Return - Always 0 on success.
 */
 
 int main(void)
