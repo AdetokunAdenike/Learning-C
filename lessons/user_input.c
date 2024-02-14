@@ -23,7 +23,7 @@ int main(void)
 	printf("Enter your age: ");
 	scanf("%d", &age);
 
-	printf("Your initial is %c, your height is %.1f and you are %d years old", initial, height, age);
+	printf("Your initial is %c, you are %.1f feet tall and you are %d years old", initial, height, age);
 
 	return(0);
 }
