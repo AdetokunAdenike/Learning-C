@@ -17,7 +17,7 @@ int main(void)
 	printf("Enter your initial: ");
 	scanf("%c", &initial);
 
-	printf("Enter your height: ");
+	printf("Enter your height(ft): ");
 	scanf("%f", &height);
 
 	printf("Enter your age: ");
