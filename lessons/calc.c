@@ -29,7 +29,15 @@ int main() {
         result = num1 * num2;
         break;
         case '/':
+	if (num2 != 0)
+	{
         result = num1 / num2;
+	}
+	else
+	{
+		printf("Error, cannot divide a number by %.0lf\n", num2);
+		return 0;
+	}
         break;
         
         default:
