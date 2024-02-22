@@ -17,6 +17,6 @@ int main(void)
         product = number * count;
         printf("%d * %d = %d \n", number, count, product);
         count--;
-    }   while (count >= 1 && count <=10);
+    }   while (count >= 1);
     return (0);
 }
