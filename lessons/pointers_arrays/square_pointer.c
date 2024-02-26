@@ -4,7 +4,7 @@
  * squareNumber - Finds tghe square of a pointer variable.
  */
 
-int squareNumber(int* num)
+void  squareNumber(int* num)
 {
     int square = *num * *num;
     *num = square;
@@ -16,7 +16,7 @@ int main (void)
 int number = 21;
 squareNumber(&number);
 
-printf("%d", number);
+printf("%d\n", number);
 
     return 0;
 }
