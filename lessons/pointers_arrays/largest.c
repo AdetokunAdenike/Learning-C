@@ -7,12 +7,9 @@
 int main (void)
 {
     int numbers;
-	int main (void)
-{
-    int numbers;
         int i;
 
-printf("Enter number of elements: ");
+printf("Enter number of elements:\n");
 scanf("%d", &numbers);
 
 int arr[numbers];
@@ -32,7 +29,7 @@ for (i = 1; i < numbers; i++)
     }
 }
 
-    printf("The largest element is: %d", largest);
+    printf("The largest element is: %d\n", largest);
 
     return 0;
 }
