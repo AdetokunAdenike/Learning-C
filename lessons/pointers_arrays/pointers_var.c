@@ -13,11 +13,11 @@ int main (void)
     
     double* ptr = &salary;
     
-    printf("%.1lf\n", *ptr);
+    printf("Current salary: %.1lf\n", *ptr);
     
     double result = *ptr * 2;
     
-    printf("%.1lf", result);
+    printf("Double salary: %.1lf\n", result);
     
     return 0;
 }
